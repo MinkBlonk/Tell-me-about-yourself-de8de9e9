@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+h1 {
+    font-size:  3.2em;
+}
+b {
+    color: pink
+}
+b {
+    font-size: 1.2em;
+}
+body {
+    background-color: aquamarine;
+}
+img{
+    width: 15%;
+}
+input{
+    border-radius: 20px;
+}

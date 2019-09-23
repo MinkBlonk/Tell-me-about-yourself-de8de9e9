@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aanmelden Bit Academy</title>
+<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Meld je nu aan bij Bit Academy!</h1>
+  <form>
+    <label for="name">Naam:</label>
+<br>
+    <input type="text" id="name" name="name" required
+           minlength="4" maxlength="8" size="10">
+          <br>
+             <label for="email">E-Mail:</label>
+        <br>
+          <input type="email" id="email" name="email" >
+        <br>
+              <label for="telefoon">Telefoon Nummer:</label>
+        <br>
+          <input type="number" id="telefoon" name="telefoon">
+        <br>
+             <label for="pin">Pin:</label>
+        <br>
+          <input type="password" id="pin" name="pin">
+        <br>
+          <label for="provincie">Provincie:</label>
+        <br>
+          <select id="provincie">
+          <option value="">--Kies een provincie--</option>
+          <option value="noord-holland">Noord-Holland</option>
+          <option value="zuid-holland">Zuid-Holland</option>
+          <option value="zeeland">Zeeland</option>
+          <option value="noord-brabant">Noord-Brabant</option>
+          <option value="limburg">Limburg</option>
+          <option value="utrecht">Utrecht</option>
+          <option value="gelderland">Gelderland</option>
+          <option value="drenthe">Drenthe</option>
+          <option value="groningen">Groningen</option>
+          <option valeu="friesland">Friesland</option>
+          <option value="overijsel">Overijsel</option>
+          <option value="flevoland">Flevoland</option>
+          </select>
+        <br>
+        <p>Hou je van voetbal?</p>
+
+        <div>
+          <input type="radio" id="ja" name="voetbal" value="ja"
+                 checked>
+          <label for="ja">Ja</label>
+        </div>
+  
+        <div>
+          <input type="radio" id="nee" name="voetbal" value="nee">
+          <label for="nee">Nee</label>
+        </div>
+        <br>
+        <p>Favorite dagen in de week?</p>
+
+        <div>
+         <input type="checkbox" id="maandag" name="maandag"
+         checked>
+         <label for="maandag">Maandag</label>
+        </div>
+
+        <div>
+         <input type="checkbox" id="dinsdag" name="dinsdag">
+         <label for="dinsdag">Dinsdag</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="woensdag" name="woensdag">
+          <label for="woensdag">Woensdag</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="donderdag" name="donderdag">
+          <label for="donderdag">Donderdag</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="vrijdag" name="vrijdag">
+          <label for="vrijdag">Vrijdag</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="zaterdag" name="zaterdag">
+          <label for="zaterdag">Zaterdag</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="zondag" name="zondag">
+          <label for="zondag">Zondag</label>
+        </div>
+        <br>
+        <input type="submit" value="Verzend">
+         </form>
+
+           
+</body>
+</html> 
